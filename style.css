@@ -1,0 +1,82 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 20px;
+    width: 50%;
+}
+
+.left-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.clear-button {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100px;
+}
+
+textarea {
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+.convert-btn {
+    display: flex;
+    align-self: center;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.right-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.right-text {
+    padding: 20px;
+    width: 300px;
+    height: 200px;
+    font-size: 20px;
+    border: 2px solid black;
+}
+
+select {
+    margin-bottom: 20px;
+    width: 100px;
+    font-size: 15px;
+}
+
+.option-black {
+    font-weight: bold;
+    color: black;
+}
+
+.option-blue {
+    font-weight: bold;
+    color: blue; 
+}
+
+.option-red {
+    font-weight: bold;
+    color: red; 
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.black {
+    color: black; 
+}
