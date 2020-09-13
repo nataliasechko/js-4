@@ -26,13 +26,13 @@ function clearRight() {
 }
 
 function colorBlue() {
-  const divRight = document.querySelectorAll("div.right-text")[0];
-  const spanElement = divRight.querySelector("span");
-  spanElement.classList.add('blue'); 
+  const colorText = document.getElementsById('addedText');
+  colorText.classList.add('blue'); 
+  colorText.classList.remove('red'); 
 }
 
 function colorRed() {
-  const divRight = document.querySelectorAll("div.right-text")[0];
-  const spanElement = divRight.querySelector("span");
-  spanElement.classList.add('red');   
+  const colorText = document.getElementsById('addedText');
+  colorText.classList.add('red');  
+  colorText.classList.remove('blue');
 }
