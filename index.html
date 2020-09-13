@@ -18,14 +18,14 @@
       <div class="right-column">
         <div class="right-buttons">
           <button class="clear-button" onclick="clearRight()">Clear</button>
-          <select>
-            <option class="option-black">Черный</option>
-            <option class="option-blue" onclick="changecolor()">Синий</option>
-            <option class="option-red">Красный</option>
+          <select id="selcolor">
+            <option class="option-black" id="black" onclick="colorBlack()">Черный</option>
+            <option class="option-blue" id="blue"><button onclick="colorBlue()">Синий</button></option>
+            <option class="option-red" id="red" onclick="colorRed()">Красный</option>
           </select>
         </div>
-        <div class="right-text" id="right-text">
-          <span></span>
+        <div class="right-text">
+          <span id="addedText"></span>
         </div>
       </div>
     </div>
